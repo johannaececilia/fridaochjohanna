@@ -1,0 +1,186 @@
+/* Don't change */
+html, body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Whole page */
+body {
+  margin-top: -22px;
+  background-color: rgb(26, 24, 24);
+  font-family: Helvetica, sans-serif;
+
+  /* Center all on page */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* All images */
+img {
+  object-fit: contain;
+}
+
+/* Movie background */
+.movie-background {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  margin-bottom: 50px;
+  background-image: url('https://cms-assets.tutsplus.com/uploads/users/523/posts/27364/final_image/project-preview-large.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+/* Content on movie background */
+.movie-background .container {
+  background-color: rgb(26, 24, 24);
+  padding: 30px;
+  position: absolute;
+  bottom: 65px;
+  left: 185px;
+  right: 185px;
+  display: flex;
+}
+
+/* Cover */
+.movie-background .container .cover img {
+  width: 230px;
+  padding: 20px;
+}
+
+/* Content */
+.movie-background .container .content {
+  padding-left: 30px;
+}
+
+/* Paragraph only in movie bacground */
+.movie-background .container .content p {
+  color: white;
+}
+
+.video {
+  display: center;
+  background-color: white;
+  flex-direction: center;
+  width: 800px;
+  padding-left: 200px;
+  padding-right: 50px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.title-video {
+  display: flex;
+  background-color: white;
+  width: 730px;
+  padding-left: 150px;
+  padding-right: 170px;
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
+
+.title-characters {
+  display: flex;
+  background-color: white;
+  width: 1050px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+/* Main character */
+.main-character {
+  display: flex;
+  background-color: white;
+  width: 1050px;
+  padding-top: 20px;
+}
+
+/* Director */
+.director {
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  width: 1050px;
+  padding-top: 30px;
+}
+
+.danny {
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  width: 1050px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* Rating */
+.rating {
+  display: flex;
+  align-items: baseline;
+}
+
+/* Rating image */
+.rating .rate {
+  width: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* Rating title */
+.rating h5 {
+  color: white;
+  font-size: 22px;
+}
+
+.rating .big {
+  color: white;
+  font-size: 22px;
+}
+
+
+/* Typography */
+h1 {
+  padding-left: 20px;
+  padding-right: 50px;
+  color: white;
+  font-size: 60px;
+  font-family: 'Shining NFI Demo'
+}
+
+h2 {
+  padding-left: 200px;
+  padding-right: 70px;
+  margin: 40px;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-family: 'Shining NFI Demo'
+}
+
+h3 {
+  margin: 30px;
+  font-size: 23px;
+  color: black;
+}
+
+h4 {
+  margin: 30px;
+  font-size: 16px;
+  color: black;
+}
+
+h5 {
+  margin-left: 15px;
+  color: white;
+}
+
+p {
+  font-size: 15px;
+  margin: 30px;
+  padding-right: 50px;
+}
+
+.year {
+  color: white;
+}
